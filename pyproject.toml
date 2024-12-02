@@ -1,0 +1,20 @@
+[project]
+name = "crypto-research"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.7"
+dependencies = [
+    "clickhouse-connect>=0.8.8",
+    "ipython>=8.30.0",
+    "matplotlib>=3.9.3",
+    "pandas>=2.2.3",
+    "torch>=2.5.1",
+    "torchvision>=0.20.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "uv>=0.5.5",
+]
